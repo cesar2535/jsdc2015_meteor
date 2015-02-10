@@ -672,4 +672,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* Fonts */
 /* Layout */
+/* line 2, ../../../sass/layout/_header.sass */
+.navbar .navbar-brand {
+  height: auto;
+}
+/* line 4, ../../../sass/layout/_header.sass */
+.navbar .navbar-brand img {
+  height: 25px;
+}
+
 /* Modules */
