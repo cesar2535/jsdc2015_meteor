@@ -14,10 +14,16 @@
   .tagline
     padding: 30px 0
   .activity
-    button
-      background-color: #57585a
+    +display-flex
+    +justify-content(center)
+    a
+      background: #57585a
       color: #f1f1f1
-      padding: 10px 20px
+      border: none
+      font-family: $font3
+      padding: 5px 10px
+      &:hover
+        background: lighten(#57585a, 15%)
 
 .intro
   height: 35vh
