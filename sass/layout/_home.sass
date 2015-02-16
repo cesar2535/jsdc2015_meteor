@@ -4,18 +4,23 @@
   font-family: $font3
 
 .landing
-  background: linear-gradient( rgba(255, 215, 15, 0.5), rgba(255, 215, 15, 0.5) ), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg) no-repeat
+  background: linear-gradient( rgba(255, 215, 15, 0.8), rgba(255, 215, 15, 0.8) ), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg) no-repeat
   background-position: center center
   +background-size(cover)
   height: 65vh
+  +display-flex
+  +flex-direction(column)
+  +justify-content(center)
+  .tagline
+    padding: 30px 0
+  .activity
+    button
+      background-color: #57585a
+      color: #f1f1f1
+      padding: 10px 20px
 
 .intro
   height: 35vh
-  .divider
-    background-color: yellowgreen
-    height: 5px
-    width: 100px
-    margin: 20px auto
 
   .container-box
     width: 750px
@@ -23,5 +28,17 @@
     margin-right: auto
     padding-left: 20px
     padding-right: 20px
+    padding-top: 50px
+    padding-bottom: 50px
+  .divider
+    background-color: yellowgreen
+    height: 5px
+    width: 100px
+    margin: 20px auto
   .info
+    color: #8f8f8f
     margin: 50px 20px
+    // font-weight: bold
+  .contact
+    color: #03cef7
+    font-weight: bold

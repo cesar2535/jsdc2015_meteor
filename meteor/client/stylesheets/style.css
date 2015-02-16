@@ -6,8 +6,7 @@
  * Tools/Helpers
  * =========================== */
 /* Image replacement */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://www.google.com/fonts#UsePlace:use/Collection:Noto+Sans:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
 /* line 8, ../../../sass/tools/_helpers.sass */
 .ir {
   background-color: transparent;
@@ -748,42 +747,66 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .landing, .intro {
   padding: 1px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* line 6, ../../../sass/layout/_home.sass */
 .landing {
-  background: linear-gradient(rgba(255, 215, 15, 0.5), rgba(255, 215, 15, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg) no-repeat;
+  background: linear-gradient(rgba(255, 215, 15, 0.8), rgba(255, 215, 15, 0.8)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg) no-repeat;
   background-position: center center;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   height: 65vh;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+/* line 14, ../../../sass/layout/_home.sass */
+.landing .tagline {
+  padding: 30px 0;
+}
+/* line 17, ../../../sass/layout/_home.sass */
+.landing .activity button {
+  background-color: #57585a;
+  color: #f1f1f1;
+  padding: 10px 20px;
 }
 
-/* line 12, ../../../sass/layout/_home.sass */
+/* line 22, ../../../sass/layout/_home.sass */
 .intro {
   height: 35vh;
 }
-/* line 14, ../../../sass/layout/_home.sass */
-.intro .divider {
-  background-color: yellowgreen;
-  height: 5px;
-  width: 100px;
-  margin: 20px auto;
-}
-/* line 20, ../../../sass/layout/_home.sass */
+/* line 25, ../../../sass/layout/_home.sass */
 .intro .container-box {
   width: 750px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-/* line 26, ../../../sass/layout/_home.sass */
+/* line 33, ../../../sass/layout/_home.sass */
+.intro .divider {
+  background-color: yellowgreen;
+  height: 5px;
+  width: 100px;
+  margin: 20px auto;
+}
+/* line 38, ../../../sass/layout/_home.sass */
 .intro .info {
+  color: #8f8f8f;
   margin: 50px 20px;
+}
+/* line 42, ../../../sass/layout/_home.sass */
+.intro .contact {
+  color: #03cef7;
+  font-weight: bold;
 }
 
 /* Modules */
