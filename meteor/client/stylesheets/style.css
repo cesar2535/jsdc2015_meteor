@@ -577,14 +577,13 @@ body {
   font-weight: 300;
   font-size: 1.5em;
   line-height: 1.5;
-  background: url(images/background.jpg);
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
-/* line 13, ../../../sass/base/_base.sass */
+/* line 12, ../../../sass/base/_base.sass */
 a {
   color: #dd577a;
   text-decoration: none;
@@ -594,26 +593,26 @@ a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 17, ../../../sass/base/_base.sass */
+/* line 16, ../../../sass/base/_base.sass */
 a:hover {
   color: #d42d58;
 }
 
-/* line 22, ../../../sass/base/_base.sass */
+/* line 21, ../../../sass/base/_base.sass */
 ::-moz-selection {
   background: #dd577a;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 26, ../../../sass/base/_base.sass */
+/* line 25, ../../../sass/base/_base.sass */
 ::selection {
   background: #dd577a;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 31, ../../../sass/base/_base.sass */
+/* line 30, ../../../sass/base/_base.sass */
 hr {
   display: block;
   height: 1px;
@@ -623,12 +622,12 @@ hr {
   padding: 0;
 }
 
-/* line 39, ../../../sass/base/_base.sass */
+/* line 38, ../../../sass/base/_base.sass */
 ul {
   list-style: none;
 }
 
-/* line 42, ../../../sass/base/_base.sass */
+/* line 41, ../../../sass/base/_base.sass */
 button {
   outline: none;
   border: none;
@@ -752,7 +751,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* line 6, ../../../sass/layout/_home.sass */
 .landing {
-  background: linear-gradient(rgba(255, 215, 15, 0.8), rgba(255, 215, 15, 0.8)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg) no-repeat;
+  background: linear-gradient(rgba(255, 215, 15, 0.8), rgba(255, 215, 15, 0.8)), url(/images/background.jpg) no-repeat;
   background-position: center center;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -792,9 +791,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* line 28, ../../../sass/layout/_home.sass */
 .intro {
-  height: 35vh;
+  background-color: #f1f1f1;
 }
-/* line 31, ../../../sass/layout/_home.sass */
+/* line 32, ../../../sass/layout/_home.sass */
 .intro .container-box {
   width: 750px;
   margin-left: auto;
@@ -804,19 +803,19 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   padding-top: 50px;
   padding-bottom: 50px;
 }
-/* line 39, ../../../sass/layout/_home.sass */
+/* line 40, ../../../sass/layout/_home.sass */
 .intro .divider {
   background-color: yellowgreen;
   height: 5px;
   width: 100px;
   margin: 20px auto;
 }
-/* line 44, ../../../sass/layout/_home.sass */
+/* line 45, ../../../sass/layout/_home.sass */
 .intro .info {
   color: #8f8f8f;
   margin: 50px 20px;
 }
-/* line 48, ../../../sass/layout/_home.sass */
+/* line 49, ../../../sass/layout/_home.sass */
 .intro .contact {
   color: #03cef7;
   font-weight: bold;
