@@ -795,7 +795,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 /* line 32, ../../../sass/layout/_home.sass */
 .intro .container-box {
-  width: 750px;
+  max-width: 750px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
