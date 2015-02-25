@@ -1,8 +1,19 @@
 template(name="home")
-  .landing
+  // cd-intro
+  section.landing.cd-intro
     .logo
       img(src="/images/logo.png")
-    h1.tagline Build Anything with JavaScript
+    h1.tagline.cd-headline.letters.type
+      span Build  
+      span.cd-words-wrapper.waiting
+        b.is-visible Anything
+        b Website
+        b Webapp
+        b Mobile App
+        b Arduino
+        b Raspberry Pi
+        b Robot
+      span with JavaScript
     .activity
       //- button(type="button") I could build "something" with JavaScript
       a.typeform-share.button(href = "https://vantischen.typeform.com/to/Du4zfx", data-mode = "1", target = "_blank")
