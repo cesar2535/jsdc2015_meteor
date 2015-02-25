@@ -1,13 +1,10 @@
 template(name="animatedHeadlines")
   section.cd-intro
-    h1.cd-headline.rotate-1
-    span Build 
-    span.cd-words-wrapper
-      b.is-visible Anything
-      b Website
-      b Webapp
-      b Mobile App
-      b Arduino
-      b Raspberry Pi
-      b Robot
-    span with JavaScript
+    h1.cd-headline.rotate-1(class="{{animateType}}")
+      span {{prefix}}
+      span.cd-words-wrapper
+        b.is-visible Anything
+        b Website
+        each words
+          b {{this}}
+      span {{suffix}}
